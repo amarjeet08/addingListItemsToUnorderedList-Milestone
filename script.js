@@ -12,7 +12,7 @@ let counter = 0;
 button.addEventListener('click', () => {
  
 
-  if (counter < listItems.length) {
+  if (listItems.length > counter) {
    
     const li = document.createElement('li');
   
